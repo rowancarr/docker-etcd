@@ -6,8 +6,8 @@ services:
   - docker
 
 before_install:
-  - docker build -t $TRAVIS_REPO_SLUG:$TRAVIS_BUILD_NUMBER docker
-  - docker run -d -p 2379:2379 $TRAVIS_REPO_SLUG:$TRAVIS_BUILD_NUMBER
+  - docker build -t ${TRAVIS_REPO_SLUG}:${TRAVIS_BUILD_NUMBER} docker
+  - docker run -d -p 2379:2379 ${TRAVIS_REPO_SLUG}:${TRAVIS_BUILD_NUMBER}
   - docker ps -a
 
 script:
