@@ -1,2 +1,5 @@
+before_script:
+  - sudo docker run --name rowancarr-etcd -d -p 2379:2379 -p 4001:4001 rowancarr/etcd:$BUILD_NUMBER
+
 script:
   - curl -L http://127.0.0.1:2379/version
