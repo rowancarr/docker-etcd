@@ -1,4 +1,4 @@
-FROM centos:7
+FROM alpine:latest
 MAINTAINER Rowan Carr (https://github.com/rowancarr)
 
 ADD https://github.com/coreos/etcd/releases/download/v2.2.1/etcd-v2.2.1-linux-amd64.tar.gz /tmp/etcd-v2.2.1-linux-amd64.tar.gz
