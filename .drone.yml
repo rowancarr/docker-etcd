@@ -1,4 +1,0 @@
-publish:
-  docker:
-    repo: registry.dev.ve.int/etcd
-    tag: latest
