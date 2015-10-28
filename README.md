@@ -1,5 +1,7 @@
 # docker-etcd
 
+[![Build Status](https://travis-ci.org/rowancarr/docker-etcd.svg)](https://travis-ci.org/rowancarr/docker-etcd)
+
 Simple etcd container on centos7 used for testing, you will need to run with different parameters for production. Check out the github repo for more details [coreos/etcd](https://github.com/coreos/etcd.git)
 
 ## usage
